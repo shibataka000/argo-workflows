@@ -106,6 +106,7 @@ argo [flags]
 * [argo cron](argo_cron.md)	 - manage cron workflows
 
 NextScheduledRun assumes that the workflow-controller uses UTC as its timezone
+
 * [argo delete](argo_delete.md)	 - delete workflows
 * [argo get](argo_get.md)	 - display details about a workflow
 * [argo lint](argo_lint.md)	 - validate files or directories of workflow manifests
