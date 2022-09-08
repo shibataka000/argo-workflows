@@ -302,7 +302,7 @@ $(GOPATH)/bin/goimports:
 ifeq ($(shell uname),Darwin)
 	brew install clang-format
 else
-	sudo apt-get install clang-format
+	apt-get install clang-format
 endif
 
 pkg/apis/workflow/v1alpha1/generated.proto: $(GOPATH)/bin/go-to-protobuf $(PROTO_BINARIES) $(TYPES) $(GOPATH)/src/github.com/gogo/protobuf
